@@ -1,0 +1,138 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rgb(238, 238, 217);
+        }
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .navbar {
+            height: 7%;
+            background-color: rgb(228, 228, 178);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        .navbar>div {
+            height: 80%;
+            margin-left: 2em;
+            margin-right: 2em;
+            font-size: 1.4em;
+        }
+        
+        .time {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.3em;
+            font-size: 1.4em;
+            color: rgb(14, 8, 90);
+            font-family: 'Syne Mono', monospace;
+        }
+        
+        .img-logo {
+            width: 2.4em;
+            height: 100%;
+            border-radius: 6em;
+        }
+        
+        .body>div {
+            background-color: rgb(243, 197, 197);
+            width: 45em;
+            height: 40em;
+            border-radius: 0.4em;
+        }
+        
+        .begin {
+            display: flex;
+            align-items: center;
+            gap: 0.3em;
+            flex-wrap: wrap;
+        }
+        
+        .head-text {
+            font-family: 'Syne Mono', monospace;
+            font-size: 0.7em;
+            color: rgb(45, 175, 56);
+        }
+        
+        .nav-middle {
+            display: flex;
+            gap: 1em;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .company {
+            width: 5em;
+            height: 2em;
+        }
+        
+        .first {
+            height: 12%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .second {
+            height: 10%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .title {
+            color: rgb(255, 0, 0);
+            font-size: 1.em;
+            font-family: 'Syne Mono', monospace;
+        }
+        
+        .form-container {
+            height: 78%;
+            font-size: 1em;
+            font-family: 'Syne Mono', monospace;
+            justify-content: center;
+        }
+        
+        .form-container>form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            gap: 1em;
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+        
+        input {
+            height: 3em;
+            border-radius: 0.3em;
+            font-size: 1.2em;
+            border: 1px black solid;
+        }
+        
+        label {
+            display: flex;
+            align-items: center;
+        }
+        
+        select {
+            height: 3em;
+            border-radius: 0.3em;
+        }
+        
+        .body {
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
